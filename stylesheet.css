@@ -1,0 +1,133 @@
+/* this is what I originally entered, and it's a disaster....
+
+* {
+	font-family: Arial, sans-serif;
+}
+
+html, body {
+	height: 100%;
+}
+
+.header {
+	float: right
+}
+
+.header li {
+	display: inline;
+	color: #5c5c5c;
+	font-size: 12px;
+	padding: 14px 10px
+}
+
+#sign_in {
+	color: #cccccc;
+	background-color: #0d52e7;
+	padding: 6px 6px 6px 6px;
+}
+
+.center {
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: (-50%, -50%);
+}
+
+.footer {
+	background-color: #e2e2e2;
+	border-top: 1px solid #a4a4a4;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+}
+
+.footer li {
+	display: inline-block;
+	width: 100px;
+	color: #4c4c4c;
+}
+
+div li {
+	display: inline;
+}
+
+ul#left_nav {
+	position: relative;
+	bottom: 0;
+	float: left;
+}
+
+ul#right_nav {
+	position: relative;
+	bottom: 0;
+	float: right;
+}
+*/
+
+.container {
+	width: 100%;
+	height: 1000px;
+	position: relative;
+}
+
+nav {
+	background-color: #333333;
+	height: 30px;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+li a {
+	text-decoration: none;
+	font-family: Arial;
+	color: #ABABAB;
+	float: left;
+	padding: 5px;
+	font-size: 13px;
+	font-weight: 600;
+	margin-top: 2px;
+	margin-right: 13px;
+}
+
+img {
+	width: 280px;
+	margin: 195px auto 0 auto;
+	display: block;
+}
+
+#sign {
+	border: 2px solid #d94a4a;
+	background-color: #d94a4a;
+	height: 16px;
+	width: 65px;
+	float: right;
+	margin-right 40px;
+	margin-top: 20px;
+	border-radius: 3px;
+	font-size: 11px;
+	font-family: Arial;
+	text-align: center;
+	color: white;
+	font-weight: 600;
+	padding-top: 7px;
+}
+
+input {
+	width: 550px;
+	height: 25px;
+	border: 1px solid #3492f7;
+	margin: 20px auto;
+	display: block;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	font-family: Verdana;
+}
